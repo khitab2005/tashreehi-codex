@@ -56,3 +56,9 @@ Tashreehi identity and app icon are original project artwork; MIT. Lucide icons 
 Next.js, React, Three.js, React Three Fiber, Drei, Zustand, Tailwind CSS, Radix UI and Vitest: MIT. Playwright and TypeScript: Apache-2.0. Installed packages retain their individual license files. See package-lock.json for exact versions.
 
 No Complete Anatomy / 3D4Medical assets, code, marks or content are included.
+
+Full redistributed notices for interface components and icons:
+
+- `public/licenses/shadcn-MIT.txt`: Copyright (c) 2023 shadcn; MIT. Source: https://raw.githubusercontent.com/shadcn-ui/ui/main/LICENSE.md
+- `public/licenses/radix-MIT.txt`: Copyright (c) 2022 WorkOS; MIT. Copied unchanged from the installed `@radix-ui/react-slot` package.
+- `public/licenses/lucide-ISC.txt`: Lucide Contributors and retained Feather credits; ISC / retained MIT notice. Copied unchanged from the installed `lucide-react` package.

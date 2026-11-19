@@ -22,6 +22,10 @@ export default defineConfig({
   },
   projects: [
     {
+      name: "iphone-webkit",
+      use: { ...devices["iPhone 13"], deviceScaleFactor: 1 },
+    },
+    {
       name: "desktop-chromium",
       use: {
         ...devices["Desktop Chrome"],
@@ -39,10 +43,6 @@ export default defineConfig({
           args: ["--use-angle=swiftshader", "--enable-unsafe-swiftshader"],
         },
       },
-    },
-    {
-      name: "iphone-webkit",
-      use: { ...devices["iPhone 13"], deviceScaleFactor: 1 },
     },
   ],
 });

@@ -1,4 +1,6 @@
 import type { NextConfig } from "next";
+const developmentEval =
+  process.env.NODE_ENV === "development" ? " 'unsafe-eval'" : "";
 const config: NextConfig = {
   poweredByHeader: false,
   async headers() {
@@ -15,8 +17,7 @@ const config: NextConfig = {
           },
           {
             key: "Content-Security-Policy",
-            value:
-              "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self'; connect-src 'self'; worker-src 'self' blob:; object-src 'none'; base-uri 'self'; frame-ancestors 'none'; form-action 'self'",
+            value: `default-src 'self'; script-src 'self' 'unsafe-inline'${developmentEval}; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self'; connect-src 'self'; worker-src 'self' blob:; object-src 'none'; base-uri 'self'; frame-ancestors 'none'; form-action 'self'`,
           },
         ],
       },

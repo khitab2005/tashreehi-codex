@@ -27,6 +27,7 @@ import {
 } from "lucide-react";
 import AnatomyViewer from "./viewer-loader";
 import { Button } from "./ui/button";
+import { Input } from "./ui/input";
 import { usePreferences } from "@/lib/store";
 import {
   systems,
@@ -447,7 +448,7 @@ export function Explorer() {
         <aside className="structure-panel">
           <label className="search-field">
             <Search size={18} />
-            <input
+            <Input
               aria-label={t(
                 "ابحث بالعربية أو الإنكليزية",
                 "Search Arabic or English",
@@ -575,7 +576,7 @@ export function SystemDetail({ id }: { id: string }) {
         <h2>{t("تعلّم البنى المتاحة", "Learn available structures")}</h2>
         <label className="search-field">
           <Search size={17} />
-          <input
+          <Input
             aria-label={t("ابحث في الجهاز", "Search this system")}
             value={query}
             onChange={(e) => setQuery(e.target.value)}
@@ -621,7 +622,7 @@ function Lessons() {
       <div className="library-toolbar">
         <label className="search-field">
           <Search size={19} />
-          <input
+          <Input
             aria-label={t("ابحث في الدروس", "Search lessons")}
             placeholder={t(
               "ابحث بالعربية أو الإنكليزية…",
@@ -857,7 +858,7 @@ function Quizzes() {
                         : ""
                     }
                   >
-                    <input
+                    <Input
                       type="radio"
                       name={q.id}
                       checked={answers[i] === j}

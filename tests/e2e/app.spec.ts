@@ -156,6 +156,11 @@ test("real GLB, selection, isolation, opacity, layers, camera, screenshot and mo
   await expect(viewer).toHaveAttribute("data-isolated", "true");
   await page.getByRole("button", { name: "Hide", exact: true }).click();
   await expect(viewer).toHaveAttribute("data-hidden", "1");
+  await page
+    .getByRole("button", { name: "Show structure", exact: true })
+    .click();
+  await expect(viewer).toHaveAttribute("data-hidden", "0");
+  await page.getByRole("button", { name: "Hide", exact: true }).click();
   await page.getByRole("button", { name: "Show all", exact: true }).click();
   await expect(viewer).toHaveAttribute("data-hidden", "0");
   await page.getByRole("slider").fill("0.5");
