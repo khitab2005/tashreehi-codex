@@ -1,0 +1,976 @@
+{
+  "revision": "f1a3a63f110e27ff0736047d52d04dba5d3087f9",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://humanatlas.io/3d-reference-library",
+  "changes": "None: byte-identical GLB files. Runtime centering, uniform scale, tint, visibility, and opacity do not alter distributed assets.",
+  "assets": [
+    {
+      "id": "heart",
+      "file": "/models/heart.glb",
+      "source": "https://raw.githubusercontent.com/hubmapconsortium/ccf-3d-reference-object-library/f1a3a63f110e27ff0736047d52d04dba5d3087f9/VH_Female/v1.2/VH_F_Heart.glb",
+      "revision": "f1a3a63f110e27ff0736047d52d04dba5d3087f9",
+      "bytes": 1745284,
+      "sha256": "9afdfb2ccf926869813582cfe150dce8cb28377417a968a4f29a5b8dc060428b",
+      "license": "CC-BY-4.0",
+      "author": "Kristen Browne (OCICB/NIAID), Human Reference Atlas / HuBMAP collaborators; Visible Human, U.S. National Library of Medicine",
+      "nodes": [
+        {
+          "name": "VH_F_interventricular_septum",
+          "mesh": 0
+        },
+        {
+          "name": "VH_F_left_cardiac_atrium",
+          "mesh": 1
+        },
+        {
+          "name": "VH_F_left_ventricle",
+          "mesh": 2
+        },
+        {
+          "name": "VH_F_right_cardiac_atrium",
+          "mesh": 3
+        },
+        {
+          "name": "VH_F_right_ventricle",
+          "mesh": 4
+        },
+        {
+          "name": "VH_F_papillary_muscle_of_heart_ant",
+          "mesh": 5
+        },
+        {
+          "name": "VH_F_papillary_muscle_of_heart_antlat",
+          "mesh": 6
+        },
+        {
+          "name": "VH_F_papillary_muscle_of_heart_med",
+          "mesh": 7
+        },
+        {
+          "name": "VH_F_papillary_muscle_of_heart_pos",
+          "mesh": 8
+        },
+        {
+          "name": "VH_F_papillary_muscle_of_heart_posmed",
+          "mesh": 9
+        },
+        {
+          "name": "VH_F_aortic_valve",
+          "mesh": 10
+        },
+        {
+          "name": "VH_F_pulmonary_valve",
+          "mesh": 11
+        },
+        {
+          "name": "VH_F_mitral_valve",
+          "mesh": 12
+        },
+        {
+          "name": "VH_F_tricuspid_valve",
+          "mesh": 13
+        }
+      ],
+      "asset": {
+        "version": "2.0",
+        "generator": "babylon.js glTF exporter for Autodesk MAYA 2022.2 v20211115.1"
+      }
+    },
+    {
+      "id": "knee",
+      "file": "/models/knee.glb",
+      "source": "https://raw.githubusercontent.com/hubmapconsortium/ccf-3d-reference-object-library/f1a3a63f110e27ff0736047d52d04dba5d3087f9/VH_Female/v1.2/VH_F_Knee_L.glb",
+      "revision": "f1a3a63f110e27ff0736047d52d04dba5d3087f9",
+      "bytes": 347952,
+      "sha256": "7cf9a73e1332ba674d92577b50ace274a774c3044d990463dc37338bc119125f",
+      "license": "CC-BY-4.0",
+      "author": "Kristen Browne (OCICB/NIAID), Human Reference Atlas / HuBMAP collaborators; Visible Human, U.S. National Library of Medicine",
+      "nodes": [
+        {
+          "name": "VH_F_meniscus_L",
+          "mesh": 0
+        },
+        {
+          "name": "VH_F_femur_L",
+          "mesh": 1
+        },
+        {
+          "name": "VH_F_intercondylar_fossa_L",
+          "mesh": 2
+        },
+        {
+          "name": "VH_F_anterior_cruciate_enthesis_L",
+          "mesh": 3
+        },
+        {
+          "name": "VH_F_posterior_cruciate_enthesis_L",
+          "mesh": 4
+        },
+        {
+          "name": "VH_F_lateral_perichondular_surface_L",
+          "mesh": 5
+        },
+        {
+          "name": "VH_F_lateral_epicondylar_enthesis_L",
+          "mesh": 6
+        },
+        {
+          "name": "VH_F_medial_epicondylar_enthesis_L",
+          "mesh": 7
+        },
+        {
+          "name": "VH_F_trochlear_groove_L",
+          "mesh": 8
+        },
+        {
+          "name": "VH_F_medial_perichondular_surface_L",
+          "mesh": 9
+        },
+        {
+          "name": "VH_F_articular_cartilage_of_knee_L",
+          "mesh": 10
+        },
+        {
+          "name": "VH_F_medial_condyle_of_left_femur_inf",
+          "mesh": 11
+        },
+        {
+          "name": "VH_F_lateral_condyle_of_femur_inf_L",
+          "mesh": 12
+        },
+        {
+          "name": "VH_F_lateral_condyle_of_femur_frontal_L",
+          "mesh": 13
+        },
+        {
+          "name": "VH_F_distal_most_point_of_medial_condyle_L",
+          "mesh": 14
+        },
+        {
+          "name": "VH_F_lateral_condyle_of_femur_sup_L",
+          "mesh": 15
+        },
+        {
+          "name": "VH_F_medial_condyle_of_left_femur_sup",
+          "mesh": 16
+        },
+        {
+          "name": "VH_F_patella_L",
+          "mesh": 17
+        },
+        {
+          "name": "VH_F_tibia_L",
+          "mesh": 18
+        },
+        {
+          "name": "VH_F_fibula_L",
+          "mesh": 19
+        }
+      ],
+      "asset": {
+        "version": "2.0",
+        "generator": "babylon.js glTF exporter for Autodesk MAYA 2022.2 v20211115.1"
+      }
+    },
+    {
+      "id": "muscles",
+      "file": "/models/muscles.glb",
+      "source": "https://raw.githubusercontent.com/hubmapconsortium/ccf-3d-reference-object-library/f1a3a63f110e27ff0736047d52d04dba5d3087f9/VH_Female/v1.2/VH_F_Muscles_Knee_L.glb",
+      "revision": "f1a3a63f110e27ff0736047d52d04dba5d3087f9",
+      "bytes": 231720,
+      "sha256": "ae9c33ecee94f0ed8b879432f4fda368918e9f6d150a89bd96273ef049d8f727",
+      "license": "CC-BY-4.0",
+      "author": "Kristen Browne (OCICB/NIAID), Human Reference Atlas / HuBMAP collaborators; Visible Human, U.S. National Library of Medicine",
+      "nodes": [
+        {
+          "name": "VH_F_rectus_femoris_L",
+          "mesh": 0
+        },
+        {
+          "name": "VH_F_tendon_of_quadriceps_femoris_L",
+          "mesh": 1
+        }
+      ],
+      "asset": {
+        "version": "2.0",
+        "generator": "babylon.js glTF exporter for Autodesk MAYA 2022.2 v20211115.1"
+      }
+    },
+    {
+      "id": "spinal",
+      "file": "/models/spinal.glb",
+      "source": "https://raw.githubusercontent.com/hubmapconsortium/ccf-3d-reference-object-library/f1a3a63f110e27ff0736047d52d04dba5d3087f9/VH_Female/v1.2/VH_F_Spinal_Cord.glb",
+      "revision": "f1a3a63f110e27ff0736047d52d04dba5d3087f9",
+      "bytes": 7656588,
+      "sha256": "d9bfc840783a415068e34b8a1a9343fff40ad03d0025fafabf74f9d8664887f8",
+      "license": "CC-BY-4.0",
+      "author": "Kristen Browne (OCICB/NIAID), Human Reference Atlas / HuBMAP collaborators; Visible Human, U.S. National Library of Medicine",
+      "nodes": [
+        {
+          "name": "VH_F_C1_segment_of_cervical_spinal_cord",
+          "mesh": 0
+        },
+        {
+          "name": "VH_F_C2_segment_of_cervical_spinal_cord",
+          "mesh": 1
+        },
+        {
+          "name": "VH_F_C3_segment_of_cervical_spinal_cord",
+          "mesh": 2
+        },
+        {
+          "name": "VH_F_C4_segment_of_cervical_spinal_cord",
+          "mesh": 3
+        },
+        {
+          "name": "VH_F_C5_segment_of_cervical_spinal_cord",
+          "mesh": 4
+        },
+        {
+          "name": "VH_F_C6_segment_of_cervical_spinal_cord",
+          "mesh": 5
+        },
+        {
+          "name": "VH_F_C7_segment_of_cervical_spinal_cord",
+          "mesh": 6
+        },
+        {
+          "name": "VH_F_C8_segment_of_cervical_spinal_cord",
+          "mesh": 7
+        },
+        {
+          "name": "VH_F_first_thoracic_spinal_cord_segment",
+          "mesh": 8
+        },
+        {
+          "name": "VH_F_second_thoracic_spinal_cord_segment",
+          "mesh": 9
+        },
+        {
+          "name": "VH_F_third_thoracic_spinal_cord_segment",
+          "mesh": 10
+        },
+        {
+          "name": "VH_F_fourth_thoracic_spinal_cord_segment",
+          "mesh": 11
+        },
+        {
+          "name": "VH_F_fifth_thoracic_spinal_cord_segment",
+          "mesh": 12
+        },
+        {
+          "name": "VH_F_seventh_thoracic_spinal_cord_segment",
+          "mesh": 13
+        },
+        {
+          "name": "VH_F_eigth_thoracic_spinal_cord_segment",
+          "mesh": 14
+        },
+        {
+          "name": "VH_F_sixth_thoracic_spinal_cord_segment",
+          "mesh": 15
+        },
+        {
+          "name": "VH_F_ninth_thoracic_spinal_cord_segment",
+          "mesh": 16
+        },
+        {
+          "name": "VH_F_tenth_thoracic_spinal_cord_segment",
+          "mesh": 17
+        },
+        {
+          "name": "VH_F_eleventh_thoracic_spinal_cord_segment",
+          "mesh": 18
+        },
+        {
+          "name": "VH_F_twelfth_thoracic_spinal_cord_segment",
+          "mesh": 19
+        },
+        {
+          "name": "VH_F_first_lumbar_spinal_cord_segment",
+          "mesh": 20
+        },
+        {
+          "name": "VH_F_second_lumbar_spinal_cord_segment",
+          "mesh": 21
+        },
+        {
+          "name": "VH_F_third_lumbar_spinal_cord_segment",
+          "mesh": 22
+        },
+        {
+          "name": "VH_F_fourth_lumbar_spinal_cord_segment",
+          "mesh": 23
+        },
+        {
+          "name": "VH_F_fifth_lumbar_spinal_cord_segment",
+          "mesh": 24
+        },
+        {
+          "name": "VH_F_first_sacral_spinal_cord_segment",
+          "mesh": 25
+        },
+        {
+          "name": "VH_F_second_sacral_spinal_cord_segment",
+          "mesh": 26
+        },
+        {
+          "name": "VH_F_third_sacral_spinal_cord_segment",
+          "mesh": 27
+        },
+        {
+          "name": "VH_F_fourth_sacral_spinal_cord_segment",
+          "mesh": 28
+        }
+      ],
+      "asset": {
+        "version": "2.0",
+        "generator": "babylon.js glTF exporter for Autodesk MAYA 2022.2 v20211115.1"
+      }
+    },
+    {
+      "id": "lungs",
+      "file": "/models/lungs.glb",
+      "source": "https://raw.githubusercontent.com/hubmapconsortium/ccf-3d-reference-object-library/f1a3a63f110e27ff0736047d52d04dba5d3087f9/VH_Female/v1.2/VH_F_Lung.glb",
+      "revision": "f1a3a63f110e27ff0736047d52d04dba5d3087f9",
+      "bytes": 11240608,
+      "sha256": "a6a81718f4d0974bcbab47c6dc38efc941ad5c7f5f256bf7ff112c710a7fd932",
+      "license": "CC-BY-4.0",
+      "author": "Kristen Browne (OCICB/NIAID), Human Reference Atlas / HuBMAP collaborators; Visible Human, U.S. National Library of Medicine",
+      "nodes": [
+        {
+          "name": "VH_F_hilum_L",
+          "mesh": 0
+        },
+        {
+          "name": "VH_F_hilum_upper_L",
+          "mesh": 1
+        },
+        {
+          "name": "VH_F_lingula_superior_bronchopulmonary_segment",
+          "mesh": 2
+        },
+        {
+          "name": "VH_F_left_anterior_bronchopulmonary_segment",
+          "mesh": 3
+        },
+        {
+          "name": "VH_F_left_apical_bronchopulmonary_segment",
+          "mesh": 4
+        },
+        {
+          "name": "VH_F_left_posterior_bronchopulmonary_segment",
+          "mesh": 5
+        },
+        {
+          "name": "VH_F_lingula_inferior_bronchopulmonary_segment",
+          "mesh": 6
+        },
+        {
+          "name": "VH_F_left_superior_bronchopulmonary_segment",
+          "mesh": 7
+        },
+        {
+          "name": "VH_F_left_posterior_basal_bronchopulmonary_segment",
+          "mesh": 8
+        },
+        {
+          "name": "VH_F_left_anterior_basal_bronchopulmonary_segment",
+          "mesh": 9
+        },
+        {
+          "name": "VH_F_left_lateral_basal_bronchopulmonary_segment",
+          "mesh": 10
+        },
+        {
+          "name": "VH_F_left_medial_basal_bronchopulmonary_segment",
+          "mesh": 11
+        },
+        {
+          "name": "VH_F_hilum_lower_L",
+          "mesh": 12
+        },
+        {
+          "name": "VH_F_hilum_R",
+          "mesh": 13
+        },
+        {
+          "name": "VH_F_right_medial_basal_bronchopulmonary_segment",
+          "mesh": 14
+        },
+        {
+          "name": "VH_F_right_posterior_basal_bronchopulmonary_segment",
+          "mesh": 15
+        },
+        {
+          "name": "VH_F_right_anterior_basal_bronchopulmonary_segment",
+          "mesh": 16
+        },
+        {
+          "name": "VH_F_right_lateral_basal_bronchopulmonary_segment",
+          "mesh": 17
+        },
+        {
+          "name": "VH_F_right_superior_bronchopulmonary_segment",
+          "mesh": 18
+        },
+        {
+          "name": "VH_F_hilum_lower_R",
+          "mesh": 19
+        },
+        {
+          "name": "VH_F_right_medial_bronchopulmonary_segment",
+          "mesh": 20
+        },
+        {
+          "name": "VH_F_right_lateral_bronchopulmonary_segmennt",
+          "mesh": 21
+        },
+        {
+          "name": "VH_F_hilum_middle_R",
+          "mesh": 22
+        },
+        {
+          "name": "VH_F_right_anterior_bronchopulmonary_segm",
+          "mesh": 23
+        },
+        {
+          "name": "VH_F_right_apical_bronchopulmonary_segment",
+          "mesh": 24
+        },
+        {
+          "name": "VH_F_right_posterior_bronchopulmonary_segment",
+          "mesh": 25
+        },
+        {
+          "name": "VH_F_hilum_upper_R",
+          "mesh": 26
+        },
+        {
+          "name": "VH_F_corniculate_cartilage_L",
+          "mesh": 27
+        },
+        {
+          "name": "VH_F_corniculate_cartilage_R",
+          "mesh": 28
+        },
+        {
+          "name": "VH_F_arytenoid_cartilage_R",
+          "mesh": 29
+        },
+        {
+          "name": "VH_F_arytenoid_cartilage_L",
+          "mesh": 30
+        },
+        {
+          "name": "VH_F_carina",
+          "mesh": 31
+        },
+        {
+          "name": "VH_F_thyroid_cartilage",
+          "mesh": 32
+        },
+        {
+          "name": "VH_F_tracheal_cartilage",
+          "mesh": 33
+        },
+        {
+          "name": "VH_F_cricoid_cartilage",
+          "mesh": 34
+        },
+        {
+          "name": "VH_F_epiglotic_cartilage",
+          "mesh": 35
+        },
+        {
+          "name": "VH_F_lungs_left_main_bronchus",
+          "mesh": 36
+        },
+        {
+          "name": "VH_F_left_superior_lobar_bronchus",
+          "mesh": 37
+        },
+        {
+          "name": "VH_F_left_inferior_lobar_bronchus",
+          "mesh": 38
+        },
+        {
+          "name": "VH_F_left_anterior_basal_bronchus",
+          "mesh": 39
+        },
+        {
+          "name": "VH_F_left_lingula_superior_bronchus",
+          "mesh": 40
+        },
+        {
+          "name": "VH_F_left_apical_bronchus",
+          "mesh": 41
+        },
+        {
+          "name": "VH_F_left_posterior_basal_bronchus",
+          "mesh": 42
+        },
+        {
+          "name": "VH_F_left_medial_basal_bronchus",
+          "mesh": 43
+        },
+        {
+          "name": "VH_F_left_superior_bronchus",
+          "mesh": 44
+        },
+        {
+          "name": "VH_F_left_anterior_bronchus",
+          "mesh": 45
+        },
+        {
+          "name": "VH_F_left_posterior_bronchus",
+          "mesh": 46
+        },
+        {
+          "name": "VH_F_left_lateral_basal_bronchus",
+          "mesh": 47
+        },
+        {
+          "name": "VH_F_left_lingula_inferior_bronchi",
+          "mesh": 48
+        },
+        {
+          "name": "VH_F_right_main_lobar_bronchus",
+          "mesh": 49
+        },
+        {
+          "name": "VH_F_right_middle_lobar_bronchus",
+          "mesh": 50
+        },
+        {
+          "name": "VH_F_right_superior_lobar_bronchus",
+          "mesh": 51
+        },
+        {
+          "name": "VH_F_right_inferior_lobar_bronchus",
+          "mesh": 52
+        },
+        {
+          "name": "VH_F_right_anterior_basal_bronchus",
+          "mesh": 53
+        },
+        {
+          "name": "VH_F_right_medial_basal_bronchus",
+          "mesh": 54
+        },
+        {
+          "name": "VH_F_right_apical_bronchus",
+          "mesh": 55
+        },
+        {
+          "name": "VH_F_right_posterior_basal_bronchus",
+          "mesh": 56
+        },
+        {
+          "name": "VH_F_right_medial_bronchus",
+          "mesh": 57
+        },
+        {
+          "name": "VH_F_right_lateral_bronchus",
+          "mesh": 58
+        },
+        {
+          "name": "VH_F_right_anterior_bronchus",
+          "mesh": 59
+        },
+        {
+          "name": "VH_F_right_lateral_basal_bronchus",
+          "mesh": 60
+        },
+        {
+          "name": "VH_F_right_superior_bronchus",
+          "mesh": 61
+        },
+        {
+          "name": "VH_F_right_posterior_bronchus",
+          "mesh": 62
+        },
+        {
+          "name": "VH_F_bronchial_cartilage",
+          "mesh": 63
+        },
+        {
+          "name": "VH_F_trachea",
+          "mesh": 64
+        }
+      ],
+      "asset": {
+        "version": "2.0",
+        "generator": "babylon.js glTF exporter for Autodesk MAYA 2022.2 v20211115.1"
+      }
+    },
+    {
+      "id": "liver",
+      "file": "/models/liver.glb",
+      "source": "https://raw.githubusercontent.com/hubmapconsortium/ccf-3d-reference-object-library/f1a3a63f110e27ff0736047d52d04dba5d3087f9/VH_Female/v1.2/VH_F_Liver.glb",
+      "revision": "f1a3a63f110e27ff0736047d52d04dba5d3087f9",
+      "bytes": 1738032,
+      "sha256": "ad9b0be0ff253e7bfe31bfffc00017dafce226d4f3e7804a81cbb4c2e269d598",
+      "license": "CC-BY-4.0",
+      "author": "Kristen Browne (OCICB/NIAID), Human Reference Atlas / HuBMAP collaborators; Visible Human, U.S. National Library of Medicine",
+      "nodes": [
+        {
+          "name": "VH_F_gastric_impression_of_liver",
+          "mesh": 0
+        },
+        {
+          "name": "VH_F_suprarenal_impression_of_liver",
+          "mesh": 1
+        },
+        {
+          "name": "VH_F_renal_impression_of_liver",
+          "mesh": 2
+        },
+        {
+          "name": "VH_F_duodenal_impression_of_liver",
+          "mesh": 3
+        },
+        {
+          "name": "VH_F_esophageal_impression_of_liver",
+          "mesh": 4
+        },
+        {
+          "name": "VH_F_porta_hepatis",
+          "mesh": 5
+        },
+        {
+          "name": "VH_F_colic_impression_of_liver",
+          "mesh": 6
+        },
+        {
+          "name": "VH_F_capsule_of_the_liver",
+          "mesh": 7
+        },
+        {
+          "name": "VH_F_bare_area_of_liver",
+          "mesh": 8
+        },
+        {
+          "name": "VH_F_diaphragmatic_surface_of_liver",
+          "mesh": 9
+        },
+        {
+          "name": "VH_F_left_anterolateral_segment",
+          "mesh": 10
+        },
+        {
+          "name": "VH_F_left_superomedial_segment",
+          "mesh": 11
+        },
+        {
+          "name": "VH_F_left_superomedial_segment1",
+          "mesh": 12
+        },
+        {
+          "name": "VH_F_left_inferomedial_segment",
+          "mesh": 13
+        },
+        {
+          "name": "VH_F_quadrate_lobe",
+          "mesh": 14
+        },
+        {
+          "name": "VH_F_right_anterosuperior_segment",
+          "mesh": 15
+        },
+        {
+          "name": "VH_F_right_posteroinferior_segment",
+          "mesh": 16
+        },
+        {
+          "name": "VH_F_right_posterosuperior_segment",
+          "mesh": 17
+        },
+        {
+          "name": "VH_F_right_anteroinferior_segment",
+          "mesh": 18
+        },
+        {
+          "name": "VH_F_caudate_lobe",
+          "mesh": 19
+        },
+        {
+          "name": "VH_F_coronary_ligament_of_liver",
+          "mesh": 20
+        },
+        {
+          "name": "VH_F_falciform_ligament",
+          "mesh": 21
+        },
+        {
+          "name": "VH_F_triangular_ligament_of_liver",
+          "mesh": 22
+        },
+        {
+          "name": "VH_F_ligamentum_venosum",
+          "mesh": 23
+        },
+        {
+          "name": "VH_F_round_ligament_of_liver",
+          "mesh": 24
+        },
+        {
+          "name": "VH_F_hepataduodenal_ligament",
+          "mesh": 25
+        }
+      ],
+      "asset": {
+        "version": "2.0",
+        "generator": "babylon.js glTF exporter for Autodesk MAYA 2022.2 v20211115.1"
+      }
+    },
+    {
+      "id": "kidney",
+      "file": "/models/kidney.glb",
+      "source": "https://raw.githubusercontent.com/hubmapconsortium/ccf-3d-reference-object-library/f1a3a63f110e27ff0736047d52d04dba5d3087f9/VH_Female/v1.2/VH_F_Kidney_L.glb",
+      "revision": "f1a3a63f110e27ff0736047d52d04dba5d3087f9",
+      "bytes": 1330900,
+      "sha256": "8ac1228e4db8c07cbf9f6c6dc7ca522c5b8d61f641927233a29ae6609b577403",
+      "license": "CC-BY-4.0",
+      "author": "Kristen Browne (OCICB/NIAID), Human Reference Atlas / HuBMAP collaborators; Visible Human, U.S. National Library of Medicine",
+      "nodes": [
+        {
+          "name": "VH_F_kidney_capsule_L",
+          "mesh": 0
+        },
+        {
+          "name": "VH_F_hilum_of_kidney_L",
+          "mesh": 1
+        },
+        {
+          "name": "VH_F_renal_pyramid_L_a",
+          "mesh": 2
+        },
+        {
+          "name": "VH_F_renal_pyramid_L_b",
+          "mesh": 3
+        },
+        {
+          "name": "VH_F_renal_pyramid_L_c",
+          "mesh": 4
+        },
+        {
+          "name": "VH_F_renal_pyramid_L_d",
+          "mesh": 5
+        },
+        {
+          "name": "VH_F_renal_pyramid_L_e",
+          "mesh": 6
+        },
+        {
+          "name": "VH_F_renal_pyramid_L_f",
+          "mesh": 7
+        },
+        {
+          "name": "VH_F_renal_pyramid_L_g",
+          "mesh": 8
+        },
+        {
+          "name": "VH_F_renal_pyramid_L_h",
+          "mesh": 9
+        },
+        {
+          "name": "VH_F_renal_pyramid_L_i",
+          "mesh": 10
+        },
+        {
+          "name": "VH_F_renal_pyramid_L_j",
+          "mesh": 11
+        },
+        {
+          "name": "VH_F_renal_pyramid_L_k",
+          "mesh": 12
+        },
+        {
+          "name": "VH_F_renal_column_L",
+          "mesh": 13
+        },
+        {
+          "name": "VH_F_outer_cortex_of_kidney_L",
+          "mesh": 14
+        }
+      ],
+      "asset": {
+        "version": "2.0",
+        "generator": "babylon.js glTF exporter for Autodesk MAYA 2022.2 v20211115.1"
+      }
+    },
+    {
+      "id": "bladder",
+      "file": "/models/bladder.glb",
+      "source": "https://raw.githubusercontent.com/hubmapconsortium/ccf-3d-reference-object-library/f1a3a63f110e27ff0736047d52d04dba5d3087f9/VH_Female/v1.2/VH_F_Urinary_Bladder.glb",
+      "revision": "f1a3a63f110e27ff0736047d52d04dba5d3087f9",
+      "bytes": 765100,
+      "sha256": "9c5732fc9628cd192bb8c8f2b4bbf22b9822a0dff5378a0d366d2f3cb2205b6a",
+      "license": "CC-BY-4.0",
+      "author": "Kristen Browne (OCICB/NIAID), Human Reference Atlas / HuBMAP collaborators; Visible Human, U.S. National Library of Medicine",
+      "nodes": [
+        {
+          "name": "VH_F_fundus_of_urinary_bladder_dome",
+          "mesh": 0
+        },
+        {
+          "name": "VH_F_urinary_bladder_neck_smooth_muscle",
+          "mesh": 1
+        },
+        {
+          "name": "VH_F_fundus_of_urinary_bladder_base",
+          "mesh": 2
+        },
+        {
+          "name": "VH_F_trigone_of_urinary_bladder",
+          "mesh": 3
+        },
+        {
+          "name": "VH_F_ureteral_orifice_R",
+          "mesh": 4
+        },
+        {
+          "name": "VH_F_ureteral_orifice_L",
+          "mesh": 5
+        }
+      ],
+      "asset": {
+        "version": "2.0",
+        "generator": "babylon.js glTF exporter for Autodesk MAYA 2022.2 v20211115.1"
+      }
+    },
+    {
+      "id": "uterus",
+      "file": "/models/uterus.glb",
+      "source": "https://raw.githubusercontent.com/hubmapconsortium/ccf-3d-reference-object-library/f1a3a63f110e27ff0736047d52d04dba5d3087f9/VH_Female/v1.2/VH_F_Uterus.glb",
+      "revision": "f1a3a63f110e27ff0736047d52d04dba5d3087f9",
+      "bytes": 909772,
+      "sha256": "a484956788ecc2ab05ca7720d9b33d265677e238f144cc28481aad2f7a0c9a95",
+      "license": "CC-BY-4.0",
+      "author": "Kristen Browne (OCICB/NIAID), Human Reference Atlas / HuBMAP collaborators; Visible Human, U.S. National Library of Medicine",
+      "nodes": [
+        {
+          "name": "VH_F_abdominal_ostium_of_uterine_tube",
+          "mesh": 0
+        },
+        {
+          "name": "VH_F_body_of_uterus",
+          "mesh": 1
+        },
+        {
+          "name": "VH_F_fundus_of_uterus",
+          "mesh": 2
+        },
+        {
+          "name": "VH_F_cornua",
+          "mesh": 3
+        },
+        {
+          "name": "VH_F_lower_uterine_segment",
+          "mesh": 4
+        },
+        {
+          "name": "VH_F_posterior_wall_of_uterus",
+          "mesh": 5
+        },
+        {
+          "name": "VH_F_anterior_wall_of_uterus",
+          "mesh": 6
+        },
+        {
+          "name": "VH_F_cervix",
+          "mesh": 7
+        },
+        {
+          "name": "VH_F_internal_cervical_os",
+          "mesh": 8
+        },
+        {
+          "name": "VH_F_external_cervical_os",
+          "mesh": 9
+        }
+      ],
+      "asset": {
+        "version": "2.0",
+        "generator": "babylon.js glTF exporter for Autodesk MAYA 2022.2 v20211115.1"
+      }
+    },
+    {
+      "id": "ovary",
+      "file": "/models/ovary.glb",
+      "source": "https://raw.githubusercontent.com/hubmapconsortium/ccf-3d-reference-object-library/f1a3a63f110e27ff0736047d52d04dba5d3087f9/VH_Female/v1.2/VH_F_Ovary_L.glb",
+      "revision": "f1a3a63f110e27ff0736047d52d04dba5d3087f9",
+      "bytes": 8984,
+      "sha256": "ed91414a667dec5e4e14aeaa2f8641731f06725dbc914bc0da3dd8b5d77f5062",
+      "license": "CC-BY-4.0",
+      "author": "Kristen Browne (OCICB/NIAID), Human Reference Atlas / HuBMAP collaborators; Visible Human, U.S. National Library of Medicine",
+      "nodes": [
+        {
+          "name": "VH_F_left_ovary",
+          "mesh": 0
+        }
+      ],
+      "asset": {
+        "version": "2.0",
+        "generator": "babylon.js glTF exporter for Autodesk MAYA 2022.2 v20211115.1"
+      }
+    },
+    {
+      "id": "pancreas",
+      "file": "/models/pancreas.glb",
+      "source": "https://raw.githubusercontent.com/hubmapconsortium/ccf-3d-reference-object-library/f1a3a63f110e27ff0736047d52d04dba5d3087f9/VH_Female/v1.2/VH_F_Pancreas.glb",
+      "revision": "f1a3a63f110e27ff0736047d52d04dba5d3087f9",
+      "bytes": 216380,
+      "sha256": "7aed6a1c35d5bd8514a8b6c77a8b57f02ffd61ba555e83405d037b8ee4e3d2f3",
+      "license": "CC-BY-4.0",
+      "author": "Kristen Browne (OCICB/NIAID), Human Reference Atlas / HuBMAP collaborators; Visible Human, U.S. National Library of Medicine",
+      "nodes": [
+        {
+          "name": "VH_F_tail_of_pancreas",
+          "mesh": 0
+        },
+        {
+          "name": "VH_F_body_of_pancreas",
+          "mesh": 1
+        },
+        {
+          "name": "VH_F_uncinate_process",
+          "mesh": 2
+        },
+        {
+          "name": "VH_F_head_of_pancreas",
+          "mesh": 3
+        },
+        {
+          "name": "VH_F_neck_of_pancreas",
+          "mesh": 4
+        }
+      ],
+      "asset": {
+        "version": "2.0",
+        "generator": "babylon.js glTF exporter for Autodesk MAYA 2022.2 v20211115.1"
+      }
+    },
+    {
+      "id": "gallbladder",
+      "file": "/models/gallbladder.glb",
+      "source": "https://raw.githubusercontent.com/hubmapconsortium/ccf-3d-reference-object-library/f1a3a63f110e27ff0736047d52d04dba5d3087f9/VH_Female/v1.2/VH_F_Gallbladder.glb",
+      "revision": "f1a3a63f110e27ff0736047d52d04dba5d3087f9",
+      "bytes": 44596,
+      "sha256": "25c0cb076517b2898e3f0cb3a241a9fb243e096d99fb5e6941b4287b6d8596ce",
+      "license": "CC-BY-4.0",
+      "author": "Kristen Browne (OCICB/NIAID), Human Reference Atlas / HuBMAP collaborators; Visible Human, U.S. National Library of Medicine",
+      "nodes": [
+        {
+          "name": "VH_F_gallbladder",
+          "mesh": 0
+        }
+      ],
+      "asset": {
+        "version": "2.0",
+        "generator": "babylon.js glTF exporter for Autodesk MAYA 2022.2 v20211115.1"
+      }
+    }
+  ]
+}
